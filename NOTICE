@@ -1,0 +1,22 @@
+hinstall
+Copyright (C) 2026 hinstall contributors
+
+---
+
+本软件包含对下列开源项目的移植与改写：
+
+openharmony/developtools_hdc
+Copyright (C) 2021 Huawei Device Co., Ltd.
+Licensed under the Apache License, Version 2.0
+https://gitee.com/openharmony/developtools_hdc
+
+移植范围：
+
+- crates/hdc : 部分文件做修改以支持hinstall功能
+- crates/hap-sign : 无（独立实现）
+
+上述移植部分依据 Apache License 2.0 授权使用，原始版权声明保留在
+对应源文件头部。原始实现的 C++ 源码仅作为协议行为的参考，
+本项目为独立的 Rust 重写。
+
+Apache License 2.0 全文见 ./LICENSE-2.0.txt
